@@ -1,0 +1,43 @@
+.trmpt {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+.trmpt .trmpttext {
+  visibility: hidden;
+  width: auto;
+  white-space: nowrap;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 6px;
+  padding: 8px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -160px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.trmpt .trmpttext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.trmpt:hover .trmpttext {
+  visibility: visible;
+  opacity: 1;
+  cursor: help;
+}

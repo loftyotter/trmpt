@@ -1,0 +1,23 @@
+.content p {
+  margin-top: 0;
+}
+
+.right {
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.save_panel {
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+  
+.save_panel input {
+  margin-right: 10px;
+}
+
+.save_panel .hidden {
+  display: none;
+}

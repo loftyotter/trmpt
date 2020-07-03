@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="options.css" />
+    </head>
+
+    <body>
+        <div class="content">
+            <p>Get the official wordlists or view instructions at <a href="https://github.com/loftyotter/trmpt/wordlists" target="_blank">GitHub</a>.</p>
+            <p>
+                <span>Search Phrases Loaded:</span>
+                <span id="loaded_phrases">0</span>
+                <br/>
+                <span>Name Variations Generated:</span>
+                <span id="loaded_variations">0</span>
+            </p>
+            <form>
+                <label for="trmpt">Import or edit trmpt json:</label>
+                <textarea id="trmpt" name="trmpt" rows="20" cols="80"></textarea>
+                <p class="right">
+                    <a href="#" id="wordlist_default">Apply default wordlist</a>
+                </p>
+                <div class="save_panel">
+                    <input type="button" id="save" value="Save">
+                    <div id="message" class="hidden"></div>
+                </div>
+            </form>
+        </div>
+        <script type="application/javascript" src="../browser-polyfill.min.js"></script>
+        <script src="options.js"></script>
+    </body>
+
+</html>

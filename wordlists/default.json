@@ -1,0 +1,22 @@
+{
+  "replacer": [
+    {"regex":"Donald John Trump","replacement":"full"},
+    {"regex":"Donald J. Trump","replacement":"full"},
+    {"regex":"Donald Trump","replacement":"full"},
+    {"regex":"@realDonaldTrump","replacement":"twitter"},
+    {"regex":"realDonaldTrump","replacement":"instagram"},
+    {"regex":"\\bTrump\\b","replacement":"short"}
+  ],
+  "given": [
+    "Acidic","Aloof","Agitated","Ancient","Angry","Bewildered","Bumpy","Decaying","Defatigable","Defeated","Detrimental","Disgruntled","Disheveled","Drab","Eroded","Faint","Flabby","Flaky","Greasy","Hairless","Haggard","Helpless","Hissing","Ineffable","Moldy","Nobody","Pedantic","Peabrained","Plain","Poisonous","Prickly","Putrid","Rancid","Sleepy","Slimy","Screeching","Shrilling","Spoiled","Tangy","Tart","Terrible","Thoughtless","Vile","Wailing","Weak","Wet","Whining"
+  ],
+  "middle": [
+    "Bunker Boy","Jackass","Smallhands","El Jefe Covfefe","Agent Orange","Baby Fingers","Chancellor Cheeto","Darth Orange","Trumpy McTrumpypants","Donnie Moscow","Trumpty Dumpty","Trumpster Fire","Cadet Bone Spurs"
+  ],
+  "surname_adj": [
+    "Acidic","Aloof","Agitated","Ancient","Angry","Bewildered","Bumpy","Decaying","Defatigable","Defeated","Detrimental","Disgruntled","Disheveled","Drab","Eroded","Faint","Flabby","Flaky","Greasy","Hairless","Haggard","Helpless","Hissing","Ineffable","Moldy","Nobody","Pedantic","Peabrained","Plain","Poisonous","Prickly","Putrid","Rancid","Sleepy","Slimy","Screeching","Shrilling","Spoiled","Tangy","Tart","Terrible","Thoughtless","Vile","Wailing","Weak","Wet","Whining"
+  ],
+  "surname_noun": [
+    "Bat","Beaver","Beetle","Blobfish","Booger","Donkey","Infant","Idiot","Frog","Fungus","Knat","Lizard","Monkey","Monster","Mouse","Newt","Ogre","Phlem","Quack","Salamander","Scoundrel","Snail","Snake","Rat","Reptilian","Tadpole","Toddler","Troll","Vermin","Vole","Wasp","Worm"
+  ]
+}

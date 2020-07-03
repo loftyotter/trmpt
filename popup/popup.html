@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+
+    <body>
+        <div class="title">
+            <img src="../icons/trmpt-32.png" width="16" height="16">
+            <p>TRMPT</p>
+        </div>
+        <hr />
+        <div class="content">
+            <div class="setting">
+                <p>Enabled</p>
+                <label class="switch">
+                    <input id="enabled" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            
+            <div id="message" class="hidden">
+                <p>page refresh required</p>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="#" id="options">Options</a>
+            <a href="#" id="donate">Donate</a>
+        </div>
+        <script type="application/javascript" src="../browser-polyfill.min.js"></script>
+        <script src="popup.js"></script>
+    </body>
+
+</html>
